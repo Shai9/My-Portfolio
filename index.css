@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  background-color: rgb(2, 16, 16);
+  height: 100vh;
+  color: aliceblue;
+  border-color: black;
+  font-size: 35px;
+}
+
+section{
+  background-color: rgb(13, 13, 37);
+  height: 500px;
+  width: 100vhpx;
+  border: solid 2px;
+}
+
+footer{
+  height: 500px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 29px;
+  width: 500px;
+}
+
+h1{
+  font-size: 80px;
+}
+
+li {
+  width: 400px;
+
+}
+
+.heading-2{
+  margin-left: 45px;
+}
+
+.button {
+  width: 170px;
+  height: 50px;
+  border-radius: 35px;
+  background-color: blue;
+  text-align: center;
+  margin-left: 45px;
+}
