@@ -14,7 +14,6 @@ body{
 
 section{
   background-color: rgb(13, 13, 37);
-  height: 500px;
   width: 100vhpx;
   border: solid 2px;
 }
@@ -49,6 +48,11 @@ p {
 
 h1{
   font-size: 80px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 490;
 }
 
 li {
@@ -88,7 +92,14 @@ li {
 
 }
 .socials{
-  display: table-column;
+  padding-bottom: 20px;
+}
+.soc{
+  margin: 4px;
+  padding: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-bottom: 2px;
 }
 .logo{
   height: 70px;
@@ -101,6 +112,27 @@ li {
   cursor: pointer;
 
 }
+
+.sub-section{
+  display: flex;
+  justify-content: space-around;
+  padding: 90px;
+  color: white;
+  border-color: black;
+  font-size: 30px;
+
+}
+.pic{
+  border-radius: 200px;
+  
+}
+
+.project-card{
+  width: 200px;
+  height: 500px;
+  border: 2px solid white;
+}
+
 
 
 
