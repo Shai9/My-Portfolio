@@ -5,7 +5,7 @@ body{
   font-family: 'Inconsolata', monospace;
 }
 .heading{
-  background-color: rgb(2, 16, 16);
+  background-color: rgb(26, 44, 44);
   height: 100vh;
   color: aliceblue;
   border-color: black;
@@ -87,5 +87,21 @@ li {
   justify-content: space-between;
 
 }
+.socials{
+  display: table-column;
+}
+.logo{
+  height: 70px;
+  margin: 28px;
+}
+
+.social{
+  margin: 30px;
+  border-bottom: 90px;
+  cursor: pointer;
+
+}
+
+
 
   
